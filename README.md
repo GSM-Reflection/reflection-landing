@@ -2,7 +2,6 @@
 이런 행사가 그리웠던 적이 있지 않나요?
 
 ![image.png](https://file.notion.so/f/f/13df8c4f-2ead-4a62-a38d-e24f73c519ba/4ca41ece-1cb4-448b-90d6-24f20c91218f/image.png?table=block&id=254302f8-bfe0-41a6-971b-20aad642994b&spaceId=13df8c4f-2ead-4a62-a38d-e24f73c519ba&expirationTimestamp=1728964800000&signature=JYvn_nZ6c8sDkntVFTL-FzigOt0fO-3eEuyUzhuauBQ&downloadName=image.png)
-
 😢 **20살 취업 시장**에 뛰어들어 남들과 달랐던 **우리만의 이야기**를 나누고 싶어요.
 
 ![image.png](https://file.notion.so/f/f/13df8c4f-2ead-4a62-a38d-e24f73c519ba/ec7cc967-e71a-4071-81a4-638bee675636/image.png?table=block&id=0e948136-cb96-4a46-9372-95d672caf593&spaceId=13df8c4f-2ead-4a62-a38d-e24f73c519ba&expirationTimestamp=1728972000000&signature=-Q3aFjwQPoobLID26KBv3hkQLP52FPjq-1cqkCj9lPA&downloadName=image.png)
