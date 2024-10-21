@@ -9,7 +9,7 @@ export default function Intro() {
           <p>
             &nbsp;to reflection
             <br></br>
-            back gsm
+            back GSM
           </p>
         </h1>
         <div>일시: 24.12.21 (토) 장소: 광주소프트웨어마이스터고등학교</div>
