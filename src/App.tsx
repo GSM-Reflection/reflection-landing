@@ -1,12 +1,12 @@
-import Background from "./components/BackGround";
 import Question from "./components/Question";
 import Timetable from "./components/Timetable";
-import Title from "./components/Title";
+import Intro from "./components/Intro";
+import Background from "./components/Background";
 
 function App() {
   return (
     <>
-      <Title></Title>
+      <Intro></Intro>
       <Background />
       <Timetable />
       <Question />
