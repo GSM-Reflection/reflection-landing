@@ -30,7 +30,7 @@ export default function Question() {
   };
   return (
     <div className="flex flex-col w-full mb-[5rem] justify-center items-center">
-      <h1 className="mb-[5rem]">많이 들어오는 질문</h1>
+      <h1 className="mb-[5rem] font-[25px]">많이 들어오는 질문</h1>
 
       <div className="w-full max-w-[1100px] mb-10 px-4">
         <Accordion className="flex flex-col gap-4" type="single" collapsible>
