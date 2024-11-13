@@ -1,16 +1,16 @@
-import { AccordionTrigger } from "@radix-ui/react-accordion";
+import { AccordionTrigger } from "@/components/ui/accordion";
 import { ChevronDown } from "lucide-react";
 
 export default function ConferenceSession() {
   return (
     <>
-      <AccordionTrigger className="p-0 w-full">
-        <div className="flex items-center gap-4 w-full relative">
+      <AccordionTrigger className="p-0 w-full transition-all  [&[data-state=open]>svg]:rotate-180 relative">
+        <div className="flex items-center gap-4 w-full">
           <p className="text-lg ">컨퍼런스</p>
           <hr className="flex-grow border-t border-[#6E6E6E] h-[1px] " />
           <p className="text-lg ">학교를 졸업하신 선배들과의 만남</p>
-          <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200 absolute -right-7" />
         </div>
+        <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200 mr-4 absolute -right-10" />
       </AccordionTrigger>
 
       <p className=" text-[#6E6E6E] text-sm text-right mb-[2rem]">

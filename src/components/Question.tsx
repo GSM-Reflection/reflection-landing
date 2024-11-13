@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { ChevronDown } from "lucide-react";
 
 export default function Question() {
   const faqs = [
@@ -40,7 +41,10 @@ export default function Question() {
               key={index}
               value={index.toString()}
             >
-              <AccordionTrigger>Q. {faq.question}</AccordionTrigger>
+              <AccordionTrigger>
+                Q. {faq.question}
+                <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200 mr-4" />
+              </AccordionTrigger>
               <AccordionContent>A. {faq.answer}</AccordionContent>
             </AccordionItem>
           ))}
