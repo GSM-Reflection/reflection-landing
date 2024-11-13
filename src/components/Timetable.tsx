@@ -8,7 +8,7 @@ import ConferenceSession from "./conferenceSession";
 export default function Timetable() {
   return (
     <div className="flex justify-center mb-[4rem]">
-      <div className="w-1/2">
+      <div className="w-2/3">
         <p className="mb-[5rem] font-[25px] text-center">섹션 시간표</p>
         {/* 개회식 */}
         <p className="text-[#A1A1A1]">13:00 ~ 13:30</p>
