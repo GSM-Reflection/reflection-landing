@@ -54,10 +54,13 @@ export default function Question() {
       </div>
 
       <div className="w-full flex flex-col md:flex-row justify-center items-center max-w-md mt-4">
-        <p className="text-sm font-light md:mr-2 mb-2 md:mb-0">
+        <p className="text-[1rem] font-light md:mr-2 mb-2 md:mb-0">
           더 궁금한 점이 있다면?
         </p>
-        <p onClick={onClick} className="font-semibold cursor-pointer">
+        <p
+          onClick={onClick}
+          className="text-[1.25rem] font-semibold cursor-pointer"
+        >
           담당자에게 연락하기
         </p>
       </div>
