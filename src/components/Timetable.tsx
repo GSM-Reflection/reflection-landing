@@ -26,7 +26,7 @@ export default function Timetable() {
               <ConferenceSession />
 
               {/* 컨퍼런스 내용 */}
-              <AccordionContent>
+              <AccordionContent className="pr-6">
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
                 <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
@@ -34,7 +34,7 @@ export default function Timetable() {
                   <p className="text-lg">주제 쓰기</p>
                 </div>
               </AccordionContent>
-              <AccordionContent>
+              <AccordionContent className="pr-6">
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
                 <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
@@ -42,7 +42,7 @@ export default function Timetable() {
                   <p className="text-lg">주제 쓰기</p>
                 </div>
               </AccordionContent>
-              <AccordionContent>
+              <AccordionContent className="pr-6">
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
                 <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
@@ -50,7 +50,7 @@ export default function Timetable() {
                   <p className="text-lg">주제 쓰기</p>
                 </div>
               </AccordionContent>
-              <AccordionContent>
+              <AccordionContent className="pr-6">
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
                 <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
@@ -58,7 +58,7 @@ export default function Timetable() {
                   <p className="text-lg">주제 쓰기</p>
                 </div>
               </AccordionContent>
-              <AccordionContent>
+              <AccordionContent className="pr-6">
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
                 <div className="flex items-center gap-4 mb-[2rem]">
                   <p className="text-lg">유태관 주무관</p>
