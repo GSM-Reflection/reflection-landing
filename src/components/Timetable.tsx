@@ -28,7 +28,7 @@ export default function Timetable() {
               {/* 컨퍼런스 내용 */}
               <AccordionContent>
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
-                <div className="flex items-center gap-4 mb-[2rem]">
+                <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
                   <hr className="flex-grow border-t border-[#6E6E6E]" />
                   <p className="text-lg">주제 쓰기</p>
@@ -36,7 +36,7 @@ export default function Timetable() {
               </AccordionContent>
               <AccordionContent>
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
-                <div className="flex items-center gap-4 mb-[2rem]">
+                <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
                   <hr className="flex-grow border-t border-[#6E6E6E]" />
                   <p className="text-lg">주제 쓰기</p>
@@ -44,7 +44,7 @@ export default function Timetable() {
               </AccordionContent>
               <AccordionContent>
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
-                <div className="flex items-center gap-4 mb-[2rem]">
+                <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
                   <hr className="flex-grow border-t border-[#6E6E6E]" />
                   <p className="text-lg">주제 쓰기</p>
@@ -52,7 +52,7 @@ export default function Timetable() {
               </AccordionContent>
               <AccordionContent>
                 <p className="text-[#A1A1A1]">13:30 ~ 13:50</p>
-                <div className="flex items-center gap-4 mb-[2rem]">
+                <div className="flex items-center gap-4 ">
                   <p className="text-lg">유태관 주무관</p>
                   <hr className="flex-grow border-t border-[#6E6E6E]" />
                   <p className="text-lg">주제 쓰기</p>
