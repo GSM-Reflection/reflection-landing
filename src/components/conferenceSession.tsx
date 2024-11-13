@@ -10,7 +10,7 @@ export default function ConferenceSession() {
           <hr className="flex-grow border-t border-[#6E6E6E] h-[1px] " />
           <p className="text-lg ">학교를 졸업하신 선배들과의 만남</p>
         </div>
-        <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200 mr-4 absolute -right-10" />
+        <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200 mr-4 absolute -right-11 text-[#6E6E6E]" />
       </AccordionTrigger>
 
       <p className=" text-[#6E6E6E] text-sm text-right mb-[2rem]">
