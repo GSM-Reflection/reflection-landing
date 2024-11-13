@@ -35,7 +35,11 @@ export default function Question() {
       <div className="w-full max-w-[1100px] mb-10 px-4">
         <Accordion className="flex flex-col gap-4" type="single" collapsible>
           {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={index.toString()}>
+            <AccordionItem
+              className="border border-[#fffff] rounded-[20px]"
+              key={index}
+              value={index.toString()}
+            >
               <AccordionTrigger>Q. {faq.question}</AccordionTrigger>
               <AccordionContent>A. {faq.answer}</AccordionContent>
             </AccordionItem>
