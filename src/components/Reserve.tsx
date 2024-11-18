@@ -10,9 +10,9 @@ export default function Reserve() {
       <div className="mt-[458px]">
         <div className="mb-[238px]">
           <img src={reflectionText} alt="" className="mb-[16px]" />
-          <div className="flex justify-between text-[40px]">
-            <p className="">Those of us who</p>
-            <p>came back to school</p>
+          <div className="flex flex-col md:flex-row justify-between text-[40px]">
+            <p>Those of us who</p>
+            <p className="text-end">came back to school</p>
           </div>
         </div>
         <div className="flex justify-center">
