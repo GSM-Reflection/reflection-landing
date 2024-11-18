@@ -1,24 +1,22 @@
-import { Button } from "./ui/button";
+import ReserveButton from "./ui/reserveButton";
 
-export default function Title() {
+export default function Intro() {
   return (
     <div className="flex w-full h-dvh justify-center items-center">
       <div className="w-3/4 h-1/2 flex flex-col gap-4">
         <h1 className="text-5xl leading-tight font-light text-start text-foreground flex">
-          <p>welcome&nbsp;</p>
+          <p>welcome</p>
           <p>
-            to reflection
+            &nbsp;to reflection
             <br></br>
-            back gsm
+            back GSM
           </p>
         </h1>
         <div>일시: 24.12.21 (토) 장소: 광주소프트웨어마이스터고등학교</div>
-        <Button
-          className="w-80 h-20 rounded-3xl bg-[#595959] text-lg"
-          size="lg"
-        >
-          사전 예약
-        </Button>
+        <div className="flex flex-col gap-2 font-medium">
+          <p>미리 사전예약을 하고싶은 분은?</p>
+          <ReserveButton />
+        </div>
       </div>
     </div>
   );
