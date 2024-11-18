@@ -1,4 +1,5 @@
 import ContentGuide from "../ui/contentGuide";
+import { loadSessionData } from "./DataLoader";
 import Session, { SessionData } from "./Session";
 
 const sessions: SessionData[] = [
@@ -69,12 +70,14 @@ const sessions: SessionData[] = [
   },
 ];
 
+const loadedSessions = loadSessionData();
+
 export default function Timetable() {
   return (
     <ContentGuide>
       <h1 className="text-[3rem] font-semibold">세션</h1>
       <div className="flex flex-col w-full">
-        {sessions.map((session, index) => (
+        {loadedSessions.map((session, index) => (
           <Session key={index} session={session} />
         ))}
       </div>
