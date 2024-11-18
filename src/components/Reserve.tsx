@@ -4,7 +4,7 @@ import reflectionText from "../assets/reflectionText.svg";
 export default function Reserve() {
   return (
     <div
-      className="flex w-full h-dvh justify-center"
+      className="flex w-full h-dvh justify-center bg-cover bg-center"
       style={{ backgroundImage: `url('/src/assets/bg.svg')` }}
     >
       <div className="mt-[458px]">
