@@ -24,7 +24,7 @@ export default function Question() {
         자주 묻는 질문
       </h1>
 
-      <div className="w-full max-w-[1200px] mb-10 px-4">
+      <div className="w-full max-w-[1200px] mb-[1155px] px-4">
         <Accordion className="flex flex-col gap-4  " type="single" collapsible>
           {faqs.map((faq, index) => (
             <AccordionItem
