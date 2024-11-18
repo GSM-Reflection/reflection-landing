@@ -1,6 +1,6 @@
 export default function Location() {
   return (
-    <div className="flex flex-col xl:flex-row items-center xl:justify-center gap-8 xl:gap-[163px] mb-[20vh] mt-[10vh]">
+    <div className="flex flex-col xl:flex-row items-center xl:justify-center gap-8 xl:gap-[163px] mb-[841px] mt-[179px]">
       <div className="text-center xl:text-left">
         <h1 className="mb-6 xl:mb-[40px] font-bold text-[32px] xl:text-[48px]">
           여기서 만나요!
