@@ -1,5 +1,5 @@
 import Question from "./components/Question";
-import Timetable from "./components/Timetable";
+import Timetable from "./components/Timetable/Timetable";
 import Intro from "./components/Intro";
 import Background from "./components/Background";
 
