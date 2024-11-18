@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { ChevronDown } from "lucide-react";
+import ContentGuide from "./ui/contentGuide";
 
 export default function Question() {
   const faqs = [
@@ -18,8 +19,8 @@ export default function Question() {
   //   window.location.href = "https://www.instagram.com/reflection_conf/";
   // };
   return (
-    <div className="flex flex-col w-full mb-[1155px]  items-center">
-      <h1 className="w-full mb-[5rem] ml-[46px] text-[40px] font-semibold t">
+    <ContentGuide>
+      <h1 className="w-full mb-[116px] ml-[46px] text-[40px] font-semibold t">
         자주 묻는 질문
       </h1>
 
@@ -40,19 +41,6 @@ export default function Question() {
           ))}
         </Accordion>
       </div>
-
-      {/* 문의하기  */}
-      {/* <div className="w-full flex flex-col md:flex-row justify-center items-center max-w-md mt-4">
-        <p className="text-[1rem] font-light md:mr-2 mb-2 md:mb-0">
-          더 궁금한 점이 있다면?
-        </p>
-        <p
-          onClick={onClick}
-          className="text-[1.25rem] font-semibold cursor-pointer"
-        >
-          담당자에게 연락하기
-        </p>
-      </div> */}
-    </div>
+    </ContentGuide>
   );
 }
