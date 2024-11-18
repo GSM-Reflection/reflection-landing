@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         suit: ["SUIT-Regular", "sans-serif"],
+        pen: "Nanum Pen Script",
       },
       borderRadius: {
         lg: "var(--radius)",
